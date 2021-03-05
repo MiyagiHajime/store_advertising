@@ -1,0 +1,20 @@
+.head-contents
+  .content-items
+    .title
+      %p.title-word Pretty shadow
+    .search-from
+      = form_with url: '#', class: 'from-box' do |f|
+        = f.text_field :comtent, class: 'KeyWordForm', placeholder: '商品のキーワード'
+        %button{type: 'submit', class: 'KeyWordForm-btn'}
+          %i.fa.fa-search{"aria-hidden" => "true"}
+  .content-nav
+    %ul.left-itemList
+      %li.left-item.Country.first
+        %p 都道府県
+      %li.left-item.Category
+        %p カテゴリー
+    %ul.rigth-itemList
+      %li.rigth-item.Login.first
+        %p ログイン
+      %li.rigth-item.newUser
+        %p 新規登録

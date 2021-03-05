@@ -59,6 +59,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass' #bootstrap導入
 gem 'font-awesome-rails' #アイコンタグを挿入するヘルパーメソッドを提供
 gem 'haml-rails' #rails haml:erb2haml
+gem 'font-awesome-sass'
 
 # ユーザー機能
 gem 'devise'

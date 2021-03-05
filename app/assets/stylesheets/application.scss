@@ -1,1 +1,11 @@
+@import "modules/reset";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+//products-view
+@import "products/index";
+@import "products/body";
+
+//共通ヘッダー
+@import "modules/head-content";
